@@ -63,8 +63,6 @@ public class Downloader {
         //усешные коды  - 2xx
         if ((connection.getResponseCode())/100 == 2) {
             try (OutputStream out = new FileOutputStream(directory + nameFile)) {
-                //запись в файл
-                if (connection.getResponseCode() == 200) {
                     byte[] b = new byte[2048];
                     int length;
                     int size = 0;
@@ -87,10 +85,10 @@ public class Downloader {
                     c.printf(v);
                     input.close();
                     os.close();
-                }
+                
 
             } catch (IOException e) {
-                c.printf("Данной директории не существует или файл не может быть созда.\n");
+                c.printf("Данной директории не существует или файл не может быть создан.\n");
             }
         }
         else {
