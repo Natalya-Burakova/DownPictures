@@ -1,8 +1,8 @@
 # DownPictures 
-Чтобы запустить jar-файл в консоли: java -jar brnat.jar URL|File directory
+Чтобы запустить jar-файл в консоли: java -jar burakova.nata-1.0-SNAPSHOT.jar URL|File directory
 
 Пример (скачивание по URL):
-java -jar brnat.jar http://komotoz.ru/kartinki/images/kartinki_pro_lubov/kartinki_pro_lubov_02.jpg pic//
+java -jar burakova.nata-1.0-SNAPSHOT.jar http://komotoz.ru/kartinki/images/kartinki_pro_lubov/kartinki_pro_lubov_02.jpg pic//
 
 Результат выполнения:
 
@@ -19,7 +19,7 @@ P.S:
 [статус: OK][http код: 200].
 
 Пример (скачивание по ссылкам из файла):
-java -jar brnat.jar file.txt pic//
+java -jar burakova.nata-1.0-SNAPSHOT.jar file.txt pic//
 
 Результат выполнения:
 
